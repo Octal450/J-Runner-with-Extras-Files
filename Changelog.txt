@@ -11,7 +11,7 @@ V3.4.0 r2:
 V3.4.0:
 - Added: HddSsAuth patch for 17559 to fix FATXPlorer formatted hard drives with security sectors + unused space
 - Added: 2.0.1838.1 XDK beta dashboard (Y1 GPU Only, see zip file + README.md within for details)
-- Added: 1888 Retail dashboard (Y1 GPU only)
+- Added: 1888 Retail dashboard (Phat consoles only)
 - Added: Feature to inject an arbitrary RGH3 or RGH 1.3 ECC under the experimental menu
 - Added: Ability to read CPU key from the virtual fuse set in the image if found
 - Added: Ability to parse early images that have different magic bytes
