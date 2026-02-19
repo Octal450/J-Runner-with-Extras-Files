@@ -4,6 +4,8 @@ J-Runner with Extras Changelog
 
 V3.4.0 r2:
 - Added: Improved console detection for RGH3 images
+- Added: Smarter console detection for Glitch2 Xenon (avoid showing as Falcon)
+- Added: SMC+ for Xenon (and Elpis)
 - Fixed: UI bugs
 - Fixed: Falcon RGH3 images showing as Jasper XSB
 - Fixed: Various minor issues
