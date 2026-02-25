@@ -23,14 +23,14 @@ V3.4.0:
 - Added: Support for Glitch2 images on Elpis consoles with Samsung RAM (or Xenon with Rhea retrofit, by wurthless-electroniks)
 - Added: Support for the creation of DevGL/zero fuse XDKBuild images
 - Added: Generate old-style C-R.bin for LTU1 DVD firmware
-- Added: Support for 64mb DevGL/Zero Fuse XDKBuild images
+- Added: Support for 64MB DevGL/Zero Fuse XDKBuild images
 - Added: Allow text after the dashboard version number in dashboard folder names
 - Added: Ability to inject a new version of XeLL in to an existing NAND image or ECC
 - Added: Support to extend a 16MB image to 64MB
 - Added: Calculator to convert a logical NAND address to (no SPARE data) a physical image address (with SPARE data)
 - Added: Function to inject a KV into an existing NAND image
 - Added: Experimental: G3Fix to resolve compatibility issues with RGH3 and older dashboards (based on g3fix.py by wurthless-electroniks)
-- Fixed: Corona glitch2m patch set for 17559, 15574, 13604
+- Fixed: Corona Glitch2m patch set for 17559, 15574, 13604
 - Fixed: Warn when PicoFlasher detects an unknown flashconfig on read or write
 - Fixed: Extraction of C-R.bin and key.bin for Winchester consoles now works
 - Fixed: Decryption of devkit bootloader stages in for Extract Files now works correctly
@@ -41,7 +41,7 @@ V3.4.0:
 - Fixed: RGH2to3 now supports RGLoader style images (CB -> CD -> SE chain)
 - Changed: XSVFtool implemented for far better glitch chip programming with xFlasher (replacing UrJTAG)
 - Changed: CPU Key dialog text limit + verification button added
-- Changed: Don't use Falcon board type for everything (Falcon CB_B is still used for Zephyr/Xenon (unless Elpis/Rhea is checked)
+- Changed: Don't use Falcon board type for everything, Falcon CB_B is still used for Zephyr/Xenon (unless Elpis/Rhea is checked)
 - Changed: The SMC reset limit patch won't be applied for DevGL or JTAG hack types (only Glitch and Glitch2 need it)
 - Changed: Create XeLL now injects the bundled version for JTAG and Glitch2 ECC creation
 - Changed: Updated bundled XeLL
